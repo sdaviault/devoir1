@@ -1,0 +1,46 @@
+body {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    background-color: #F2F2F2;
+    font-family: 'Catamaran', sans-serif;
+    color: #202D33;
+}
+
+h1 {
+    font-family: 'Catamaran', sans-serif;
+    color: #384F59;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Catamaran', sans-serif;
+    color: #384F59;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.galerie {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3vw;
+}
+
+.images {
+    padding: 1vw;
+    width: 19vw;
+    height: 15vw;
+}
+
+figcaption {
+    text-align: center;
+}
+
+hr {
+    color: #737373;
+    line-height: normal;
+}
